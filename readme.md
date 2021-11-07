@@ -52,6 +52,20 @@
 ![image](https://user-images.githubusercontent.com/79855481/140663463-33cb6798-ba64-43ae-b5dc-04039affbef6.png)
 
 
+| Component | Priority | Estimated Time | Time Invested | Actual Time |
+| --- | :---: |  :---: | :---: | :---: |
+| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
+| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
+| Total | H | 6hrs| 5hrs | 5hrs |
+## Code Snippet
+Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
+```
+function reverse(string) {
+	// here is the code to reverse a string of text
+}
+```
+## Change Log
+ Use this section to document what changes were made and the reasoning behind those changes.  ![image](https://user-images.githubusercontent.com/79855481/140664504-c5a3d405-2dfb-454c-aafc-fa3e7345d80b.png)
 
 
 
