@@ -37,9 +37,6 @@
 	
 https://github.com/ThomasTaylor21/vm-p1/blob/main/Screen%20Shot%202021-11-07%20at%208.45.07%20PM.png#:~:text=main-,vm-p1,/Screen%20Shot%202021-11-07%20at%208.45.07%20PM.png,-Go%20to%20file
 	
-https://www.figma.com/file/mKfeYzaR7k8YVjFuKojypZ/Untitled?node-id=1%3A31
-
-	
 
 
  ##MVP: 
