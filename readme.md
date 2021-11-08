@@ -6,8 +6,11 @@
 	• API:Site for API:
 		○  https://api.nasa.gov/  image data gathered by NASA's Curiosity, Opportunity, and Spirit rovers on Mars 
 	• API Snippet:
-		○  A sample snippet of JSON from a successful GET request you have made to your API using Postman.
-		{
+		
+	○  A sample snippet of JSON from a successful GET request you have made to your API using Postman.
+	
+	```
+	{
     "photos": [
         {
             "id": 102693,
@@ -28,7 +31,8 @@
                 "status": "active"
             }
         },
-
+	
+	```
 		
 		
 		
@@ -38,7 +42,7 @@
 	
 	https://www.figma.com/file/mKfeYzaR7k8YVjFuKojypZ/Untitled?node-id=1%3A31
 
-	*************   See attached screen shot listed in GITHUB  *********************
+	
 
 
 • MVP: 
