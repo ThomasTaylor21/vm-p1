@@ -35,7 +35,7 @@
 	• Wireframes: The proposed layout and design of your app. Create mockups for your views. If your are creating multiple views including both desktop and mobile formats, and consider whether or not you need to account for landscape and portrait orientations. Please use a digital tool to complete your wireframe.
 	PIC
 	
-	
+	*************   See attached screen shot listed in GITHUB  *********************
 	
 	
 	
