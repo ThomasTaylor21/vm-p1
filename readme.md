@@ -54,9 +54,14 @@
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Adding Form | H | 3hrs| hrs | - |
+| Working with API | H | 4hrs| hrs | - |
+| Working with HTML | H | 3hrs| hrs |    - |
+| Working with JavaScript | H | 3hrs| hrs |     - |
+| Working with CSS | H | 6hrs| hrs | hrs |
+| Working with Refining Code Integrity | H| 6hrs| hrs |    -|
+| Working with Final GUI | H | 7hrs| hrs | hrs |
+| Total | H | 36hrs| hrs | hrs |
 ## Code Snippet
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
 ```
