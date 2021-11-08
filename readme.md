@@ -52,6 +52,7 @@
 	○ Add method to save image to you device (PC or Smartphone
 	
 • Goals: What you plan to accomplish for each day of the project week.
+
 	○ Day 1
 		§ Connect and import API to my GitHUB Repository: https://github.com/ThomasTaylor21/vm-p1#:~:text=/-,vm-p1,-Public
 		§ Configure Base of Website: HTML, CSS & JavaScript
