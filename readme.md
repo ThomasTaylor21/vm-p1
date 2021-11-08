@@ -35,9 +35,9 @@
 		
 ## Wireframes: 
 	
-	https://github.com/ThomasTaylor21/vm-p1/blob/main/Screen%20Shot%202021-11-07%20at%208.45.07%20PM.png#:~:text=main-,vm-p1,/Screen%20Shot%202021-11-07%20at%208.45.07%20PM.png,-Go%20to%20file
+https://github.com/ThomasTaylor21/vm-p1/blob/main/Screen%20Shot%202021-11-07%20at%208.45.07%20PM.png#:~:text=main-,vm-p1,/Screen%20Shot%202021-11-07%20at%208.45.07%20PM.png,-Go%20to%20file
 	
-	https://www.figma.com/file/mKfeYzaR7k8YVjFuKojypZ/Untitled?node-id=1%3A31
+https://www.figma.com/file/mKfeYzaR7k8YVjFuKojypZ/Untitled?node-id=1%3A31
 
 	
 
@@ -58,36 +58,35 @@
 	
 ## Goals: What you plan to accomplish for each day of the project week.
 
-	 Day 1
+Day 1
 		 Connect and import API to my GitHUB Repository: https://github.com/ThomasTaylor21/vm-p1#:~:text=/-,vm-p1,-Public
 		 Configure Base of Website: HTML, CSS & JavaScript
 		 Focus on HTML structure, Test as I move along 
 		
-	○ Day 2
+Day 2
 		§ Focus on JavaScript and integrate to HTML
 		§ Testing the API connectivity and addressing issues
 		§ Start refining with Front end User GUI by setting up CSS
 		§ Testing only one API for get format and structures correct.
 		§ Duplicating tested API with other two APIs
 		
-	 DAY 3
+DAY 3
 		§ Adding more features to front end GUI model
 		§ Include "reset" feature and "drop-down selector
 		§ Refine for eye appeal
 		
-	 DAY 4
+DAY 4
 		Test site and have support take a look at progress and inquire for any refinement of site
 		
-   	 DAY 5
+DAY 5
 		Continue to streamline front-end page by looking for opportunities to improve code: CLEAN-UP
 		
-    	 DAY 6
+DAY 6
     		Presentation
 
-
-	 Priority Matrix: 
+Priority Matrix: 
 	
-	[Screen Shot 2021-11-08 at 9 46 42 AM](https://user-images.githubusercontent.com/79855481/140773340-fc275c3b-8bd0-4f96-8a51-f263630acb86.png)
+[Screen Shot 2021-11-08 at 9 46 42 AM](https://user-images.githubusercontent.com/79855481/140773340-fc275c3b-8bd0-4f96-8a51-f263630acb86.png)
 
 
 
