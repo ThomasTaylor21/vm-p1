@@ -83,7 +83,10 @@
     		§ Presentation
 
 
-	• Priority Matrix: A graph of your intended areas of development (Pseudocoding, Design, HTML, CSS, JavaScript, Testing, etc) plotted on an X/Y axis where X represents time to completion and Y represents priority. Use a professional tool or upload a well drawn image using an image hosting site such as Cloudinary or a similar hosting service.
+	• Priority Matrix: 
+	
+	![Screen Shot 2021-11-08 at 9 46 42 AM](https://user-images.githubusercontent.com/79855481/140773340-fc275c3b-8bd0-4f96-8a51-f263630acb86.png)
+
 
 
 
