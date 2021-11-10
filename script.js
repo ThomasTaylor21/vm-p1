@@ -16272,4 +16272,4 @@ let marsRover = ("$photo");
 
 
 }
-console.log(photo);
+console.log(photos);
