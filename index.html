@@ -10,11 +10,20 @@
   <img src="myMedia/cvstipton.jpg">
   <img src="html5logo.png">
 
-  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script> -->
+  <link href="img_src" :"http://mars.jpl.nasa.gov/msl-raw-images/msss/01000/mcam/1000ML0044631300305227E03_DXXX.jpg" ,
+    rel="stylesheet" <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script> -->
+  async function getImage() {
+  try {
+  const res = await
+  axios.get("https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=2nD1sHhCwt8e8nkf7URbS9XbCa4loKkx9rGhrLex");
+  const list = Object.keys(res.data.message);
+  // Pass list to a new function
+  setOptionValues(list);
+  } catch (err) {
+  alert(err);
+  }
 
 </head>
 
@@ -24,33 +33,33 @@
     <h1>Explore Mars</h1>
     <nav>
       <p>
-        <img1 src='cvstipton.jpg'>
-          <ul>
-            <h2>
-              <li><a href="MyGoals.html"> My Goals</a></li>
+        <img src='1000ML0044631300305227E03_DXXX.jpg'>
+      <ul>
+        <h2>
+          <li><a href="getImage.html"> Get Image</a></li>
 
 
-            </h2>
-            <h2>
-              <li><a href="AboutMe.html"> About Me</a></li>
+        </h2>
+        <h2>
+          <li><a href="detailsImage.html"> Details of Image</a></li>
 
-            </h2>
-
-
-            </h2>
-            <h2>
-              <li><a href="MyProjects.html"> My Projects</a></li>
+        </h2>
 
 
-            </h2>
-            <h2>
-              <li><a href="MyResume.html"> My Resume</a></li>
+        </h2>
+        <h2>
+          <li><a href="shareImage.html"> Share Image</a></li>
 
-            </h2>
-          </ul>
+
+        </h2>
+        <h2>
+          <li><a href="PrintTo.html"> Print to...</a></li>
+
+        </h2>
+      </ul>
+      <div>
+        <img2 src='20210824_125941.jpg'>
           <div>
-            <img2 src='20210824_125941.jpg'>
-              <div>
     </nav>
     </p>
 
