@@ -12,14 +12,10 @@
   }
   h1 {
       color: rgb(63, 30, 30);
+      display:flex;
+      justify-content: space-between;
   
-  div {   
-      img {
-      height:20%;
-      <align-self:auto>
-      align-items: bottom;
-  }
-  nav {
+    nav {
       display: flex;
       flex-direction: column;
       align-items: baseline-center;
