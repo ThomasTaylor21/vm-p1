@@ -21,13 +21,30 @@
   }
 
   .class-1 {
-    border: 15px solid rgb(155, 48, 48);
+    display: flexbox;
+    border: 5px solid rgb(155, 48, 48);
     outline: 3px solid royalblue;
   }
-  div {
-    
+  .class-2 {
+      display: flexbox;
+      border: 15px solid rgb(155, 48, 48);
+      outline: 3px solid royalblue; 
+      align-self: flex-end;
 
   }
-  
+  .class-3 {
+    display: flexbox;
+    border: 15px solid rgb(155, 48, 48);
+    outline: 3px solid royalblue; 
+    align-self: flex-end;
+
+}
+.class-4 {
+  display: flexbox;
+  border: 15px solid rgb(155, 48, 48);
+  outline: 3px solid royalblue; 
+  align-self: flex-end;
+
+} 
 
   
