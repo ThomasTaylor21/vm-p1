@@ -7,17 +7,16 @@
     align-self:center;
     align-items:right;
   }
-image 1{
-image-rendering: ;
+img {
 display:flex;
 justify-content: space-between;
-align-items: horizontal;y
+align-items: vertical;
 }
   header { 
       color: rgb(71, 45, 69);
       display:flex;
       justify-content: space-between;
-      align-items: horizontal;y
+      align-items: horizontal;
   }
   h1 {
       color: rgb(63, 30, 30);
