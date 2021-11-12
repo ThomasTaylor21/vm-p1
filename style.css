@@ -7,7 +7,8 @@
     align-self:center;
     align-items:right;
   }
-img {
+ 
+.media {
 display:flex;
 justify-content: space-between;
 align-items: vertical;
@@ -24,6 +25,11 @@ align-items: vertical;
       display:flex;
       justify-content: space-between;
   }
+.container {
+
+  display: flex;
+  align-self: auto;
+}
 
   .class-1 {
     display: flexbox;
@@ -49,7 +55,7 @@ align-items: vertical;
   border: 5px solid rgb(236, 7, 7);
   outline: 3px solid rgb(56, 56, 58); 
   align-self: flex-end;
+}
 
-} 
 
   
