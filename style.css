@@ -16,7 +16,8 @@ align-items: vertical;
       color: rgb(71, 45, 69);
       display:flex;
       justify-content: space-between;
-      align-items: horizontal;
+      flex-grow: inherit;
+      align-items: stretch-horizontal;
   }
   h1 {
       color: rgb(63, 30, 30);
