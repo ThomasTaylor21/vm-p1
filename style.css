@@ -1,5 +1,5 @@
 *{
-  background: rgb(47, 166, 187);
+  background: rgb(159, 206, 214);
   border-top: 20px;
   }
   body {
@@ -7,12 +7,17 @@
     align-self:center;
     align-items:right;
   }
-
+image 1{
+image-rendering: ;
+display:flex;
+justify-content: space-between;
+align-items: horizontal;y
+}
   header { 
       color: rgb(71, 45, 69);
       display:flex;
       justify-content: space-between;
-      align-items: vertical;
+      align-items: horizontal;y
   }
   h1 {
       color: rgb(63, 30, 30);
@@ -22,27 +27,27 @@
 
   .class-1 {
     display: flexbox;
-    border: 5px solid rgb(155, 48, 48);
-    outline: 3px solid royalblue;
+    border: 5px solid rgb(245, 136, 47);
+    outline: 3px solid rgb(6, 19, 59);
   }
   .class-2 {
       display: flexbox;
-      border: 15px solid rgb(155, 48, 48);
-      outline: 3px solid royalblue; 
+      border: 5px solid rgb(194, 135, 58);
+      outline: 3px solid rgb(9, 13, 26); 
       align-self: flex-end;
 
   }
   .class-3 {
     display: flexbox;
-    border: 15px solid rgb(155, 48, 48);
-    outline: 3px solid royalblue; 
+    border: 5px solid rgb(216, 88, 88);
+    outline: 3px solid rgb(48, 51, 58); 
     align-self: flex-end;
 
 }
 .class-4 {
   display: flexbox;
-  border: 15px solid rgb(155, 48, 48);
-  outline: 3px solid royalblue; 
+  border: 5px solid rgb(236, 7, 7);
+  outline: 3px solid rgb(56, 56, 58); 
   align-self: flex-end;
 
 } 
