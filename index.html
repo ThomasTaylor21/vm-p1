@@ -9,24 +9,34 @@
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <script defer src="./script.js"></script>
 
-  <title>Document</title> 
-  <link rel="stylesheet" href="print.css" media="print" />
+  <title>Document</title>
+  <!-- <link rel="stylesheet" href="print.css" media="print" /> -->
 </head>
 
 <body>
   <header>
 
-  <h1>Explore Mars</h1>
-<div .media="myMedia">
+    <h1>Explore Mars</h1>
+    <div .media="myMedia">
 
-  <img src="myImages/Curiosity.png" alt="Curiosity">
-  <img src="myImages/Opportunity.png" alt="Opportunity">
-  <img src="myImages/Spirit.png" alt="Spirit">
-  </div>
+      <img src="myImages/Curiosity.png" alt="Curiosity">
+      <img src="myImages/Opportunity.png" alt="Opportunity">
+      <img src="myImages/Spirit.png" alt="Spirit">
+    </div>
   </header>
- /// place viewer box here
- <img style="-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="./myImages/Opportunity.png">
-  
+  <h1>NASA MARS SEARCH</h1>
+
+  <!-- <script>//javascript function here?</script> -->
+
+  <input id="text" type="text" value="" style="Width:20%" />
+  <button>Find MARS rovers By Name</button>
+
+  <p>Results</p>
+  <div v-html="link.myImages"></div>
+  /// place viewer box here
+  <img style="margin: auto;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="./res.data">;
+
+
   <div class="class-1">
     <h2>Ever wonder what it look like in the eyes of NASA's Curiosity, Opportunity, and Spirit rovers on Mars?</h2>
 
@@ -40,19 +50,19 @@
   </div>
 
   <div class="class-3">
-    
+
     <h2>Here you go.(searches API)</h2>
 
 
 
   </div>
 
-</div>
-<div class="class-4">
-  <h2>Want a copy? (this.print, this.send, this.save)</h2>
+  </div>
+  <div class="class-4">
+    <h2>Want a copy? (this.print, this.send, this.save)</h2>
 
 
-</div>
+  </div>
 </body>
 
 

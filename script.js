@@ -11,6 +11,7 @@ async function getImage() {
     console.log(list)
     setOptionValues(list);
   }
+
   catch (err) {
     console.log(err);
   } finally {
@@ -18,3 +19,19 @@ async function getImage() {
   }
 }
 getImage()
+try {
+  
+} catch (error) {
+  
+}{
+  let Url = ('https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=2nD1sHhCwt8e8nkf7URbS9XbCa4loKkx9rGhrLex');
+  fetch(Url).then(response => {
+    return response.json();
+  }).then(res.data => {
+    // Work with JSON data here
+    console.log(res.data)
+  }).catch(err => {
+    console.log(err)
+  })
+}
+
