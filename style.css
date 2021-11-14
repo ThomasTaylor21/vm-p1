@@ -27,12 +27,7 @@ align-items: vertical;
       display:flex;
       justify-content: space-between;
   }
-.container {
-
-  display: flex;
-  align-self: auto;
-}
-
+  
   .class-1 {
     display: flexbox;
     border: 5px solid rgb(245, 136, 47);
