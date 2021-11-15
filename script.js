@@ -2,54 +2,48 @@
 //on page load fucntion that gets all photos
 // have list of images
 //send list ti HTMLAllCollection
-const selector = document.querySelector("#photo-selector");
+const selector = document.querySelector("photo-selector");
 async function getAllPhotos() {
+
+  const res = await axios.get("https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=2nD1sHhCwt8e8nkf7URbS9XbCa4loKkx9rGhrLex");
+  console.log(res.data);
+  setOptionValues(list);
+
+}
+{
+  function getAllPhotos();
+  function setOptionValues(list) {
+    console.log(photos);
+  }
+  photos.forEach(photos); {
+    let option = document.createElement("option");
+    option.value = photos;
+    option.textContent = photo;
+    selector.appendChild(option);
+  };
+
+  // save for later...
+  // async function getImage() {
+
   try {
-    const res = await axios.get("https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=2nD1sHhCwt8e8nkf7URbS9XbCa4loKkx9rGhrLex");
-    console.log(res.data);
-    setOptionValues(list);
+    randomBtn.addEventListener("click", getRandomPics);
+    const randomUrl = new URL('https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=2nD1sHhCwt8e8nkf7URbS9XbCa4loKkx9rGhrLex');
+    const res = await axios.get(RandomPics);
+    let getImage = res.data.message;
+    parseImage([img]);
+    displayImage(img);
 
   } catch (err) {
-    alert(err);
+    console.log(err);
+  } finally {
+    console.log("done");
   }
-
-  // const list = Object.keys(res.data.mars - photos);
 }
+function parseImage(str) {
+  let arr = str.split("/");
+  console.log(arr[7]);
 
-
-getAllPhotos();
-function setOptionValues(photos) {
-  console.log(photos);
 }
-photos.array.forEach(photos); {
-  let option = document.createElement("option");
-  option.value = photos;
-  option.textContent = photo;
-  selector.appendChild(option);
-};
-
-// save for later...
-// async function getImage() {
-
-//   try {
-//     randomBtn.addEventListener("click", getRandomPics);
-//     const randomUrl = new URL('https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=2nD1sHhCwt8e8nkf7URbS9XbCa4loKkx9rGhrLex');
-//     const res = await axios.get(RandomPics);
-//     let getImage = res.data.message;
-//     parseImage([img]);
-//     displayImage(img);
-
-//   } catch (err) {
-//     console.log(err);
-//   } finally {
-//     console.log("done");
-//   }
-// }
-// function parseImage(str) {
-//   let arr = str.split("/");
-//   console.log(arr[7]);
-
-// }
 
 
 // console.log(image);
