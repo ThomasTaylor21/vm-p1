@@ -30,8 +30,8 @@ async function getAllPhotos() {
     const randomUrl = new URL('https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=2nD1sHhCwt8e8nkf7URbS9XbCa4loKkx9rGhrLex');
     const res = await axios.get(RandomPics);
     let getImage = res.data.message;
-    parseImage([img]);
-    displayImage(img);
+    parseImage([myImages]);
+    displayImage(myImages);
 
   } catch (err) {
     console.log(err);
